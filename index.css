@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+    font-weight: 500;
+    size: 20px;
+    line-height: 23.7px;
+    color: #4F5665;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 40px;
+    height: 40px;
+}
+
+.logo span {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 10px;
+    color: #0e103d;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin: 0 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #0e103d;
+    font-weight: bold;
+}
+
+.auth-buttons {
+    display: flex;
+}
+
+.auth-buttons .sign-in,
+.auth-buttons .sign-up {
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+
+    color: #000000;
+    margin-left: 10px;
+}
+
+.auth-buttons .sign-up {
+    background-color: #f53838;
+    color: white;
+    border: 2px solid #f53838;
+}
