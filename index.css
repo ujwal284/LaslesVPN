@@ -41,10 +41,12 @@ body {
 .nav-links {
     display: flex;
     list-style-type: none;
+
 }
 
 .nav-links li {
     margin: 0 20px;
+
 }
 
 .nav-links a {
@@ -69,7 +71,112 @@ body {
 }
 
 .auth-buttons .sign-up {
-    background-color: #f53838;
-    color: white;
+    background-color: #ffffff;
+    color: #f53838;
     border: 2px solid #f53838;
+}
+
+
+.rightSection img {
+    width: 611.24px;
+    height: 382.44px;
+    top: 179.11px;
+    left: 912.76px;
+
+    gap: 0px;
+    opacity: 0px;
+    position: absolute;
+    right: 0px;
+
+
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.hero-content {
+    max-width: 600px;
+    padding-right: 71px;
+    padding-top: 141px;
+    margin-left: 258px;
+
+}
+
+h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+h1 .bold {
+    font-weight: bold;
+    color: #000000;
+}
+
+p {
+    font-size: 1.1rem;
+    line-height: 1.5;
+    margin-bottom: 30px;
+    color: #4F5665;
+}
+
+#getStartedBtn {
+    width: 200px;
+    height: 50px;
+    background-color: #F53838;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+#getStartedBtn:hover {
+    background-color: #d43535;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.stats-container {
+    display: flex;
+    justify-content: space-between;
+    /* Space between the items */
+    align-items: center;
+    padding: 20px;
+    /* Add padding to give some gap from edges */
+}
+
+.stat-item {
+    text-align: center;
+    /* Center-align the text */
+    margin: 0 10px;
+    /* Add margin to provide some gap between items */
+}
+
+.stat-icon {
+    width: 55px;
+    /* Ensure consistent icon size */
+    height: 55px;
+    margin-bottom: 10px;
+    /* Gap between icon and text */
+}
+
+.stat-item h3 {
+    font-size: 24px;
+    /* Adjust font size */
+    margin: 5px 0;
+    /* Margin between number and label */
+}
+
+.stat-item p {
+    font-size: 16px;
+    /* Adjust font size for the labels */
+    color: #555;
+    /* Color of the text */
 }
